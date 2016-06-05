@@ -1,0 +1,178 @@
+/*
+background
+*/
+body{
+	background-color: white;
+}
+
+#home {
+	height: 800px;
+	left:0;
+	background-image: url("images/home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1000px 550px;
+	padding-top: 50px;
+}
+
+#projects {
+	height: 800px;
+	left:0;
+	padding-top:50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-image: url("images/background.jpg");
+}
+
+#art {
+	height: 800px;
+	left:0;
+	background: #A3E2CD;
+	padding-top:50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#about{
+	height: 800px;
+	width:100%;
+	left:0;
+	padding-top:50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	/*background: #FDFCD0;*/
+	background-image: url("images/pattern3.jpg");
+}
+
+#contact{
+	height: 500px;
+	left:0;
+	background-image: url("images/Triangle.jpg");
+	padding-top:20px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+hr {
+	width:50%;
+}
+
+h1{
+	font-style: italic;
+	color: #363437;
+	text-shadow: 1px 1px gray;
+}
+
+/*
+Navigation
+*/
+ul.topnav{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #363437;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+
+ul.topnav li {
+	float:left;
+}
+
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+    padding: 12px 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+ul.topnav li a:hover {
+	background-color: #A3E2CD;
+}
+
+ul.topnav li.icon {display: none;}
+
+/*
+image gallery
+*/
+
+div.img {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 270px;
+    background: white;
+    display: inline-block;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 150px;
+}
+
+div.desc {
+    padding: 3px;
+    text-align: right;
+    color: gray;
+    font-style: italic;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* 
+contact icons
+*/
+div.icons {
+
+    padding: 5px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#social{
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 370px;
+
+}
